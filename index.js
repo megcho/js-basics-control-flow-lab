@@ -3,10 +3,9 @@ function scuberGreetingForFeet(someNumber){
   if (someNumber <= 400) {
     result = 'This one is on me!';
   }
-  if (someNumber >= 2000) {
+  else if (someNumber > 2000 && someNumber < 2500) {
     result = 'I will gladly take your thirty bucks.';
-  }
-  if (someNumber >= 2500) {
+  } else {
     result = 'No can do.';
   }
   return result;
